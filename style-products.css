@@ -1,0 +1,217 @@
+:root{
+    --divHeight: 800px;
+    --divWidth: 1400px;
+}
+
+
+
+body{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: light;
+}
+
+.dvMain{
+    width: var(--divWidth);
+    height: var(--divHeight);
+    background-color: white;
+    margin: 5px auto;
+    padding: 30px;
+    display: flex;
+    
+}
+
+.dvMenu{
+    width: 150px;
+    height: var(--divHeight);
+    padding: 1px;
+    background-color: blanchedalmond;
+    font-size: 25px;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-left: 5px;
+  
+}
+
+.dvMenuOptions{
+    opacity: 80%;
+}
+.HMW:hover {
+    font-size: 120%;
+    transition-duration: .6s;
+}
+
+.dvMenu ul{
+    padding-left: 5px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.dvMainPage{
+    display: flex;
+    flex-wrap: wrap;
+    --MainSectionWidth: calc(var(--divWidth) - 150px);
+    width: calc(var(--divWidth) - 150px);
+    height: var(--divHeight);
+    justify-content: center;
+    align-items: center;
+}
+
+.dvHeadImg{
+    width: var(--MainSectionWidth);
+    height: 150px;
+    padding: 0 200px 0 270px;
+}
+
+.dvImage{
+    height: 150px;
+    width: 700px;
+}
+
+.dvProductInfo {
+    height: calc(var(--divHeight) - 150px);
+    width: var(--MainSectionWidth);
+}
+
+.right {
+    height: 650px;
+    width: 625px;
+    position: absolute;
+    margin-left: 625px;
+    padding-left: 10px;
+    padding-top: 15px;
+    
+}
+.right p{
+    font-size: 20px;
+}
+
+  .left {
+    height: 650px;
+    width: 625px;
+    margin-right: 625px;
+
+  }
+
+.productImg {
+    height: 550px;
+    width: 510px;
+    margin-top: 60px;
+    margin-left: 60px;
+    border: 3px solid blanchedalmond;
+}
+
+.btnColors {
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    transition-duration: .4s;
+    font-size: 15px;
+}
+
+.btn1 {
+    background-color: white;
+    color: white;
+}
+.btn1:hover {
+    color: black;
+}
+.btn1:focus {
+    color: black;
+}
+
+.btn2 {
+    background-color: rgb(219, 219, 219);
+    color: rgb(219, 219, 219);
+}
+.btn2:hover {
+    color: black;
+}
+.btn2:focus {
+    color: black;
+}
+
+.btn3 {
+    background-color: black;
+    color: black;
+}
+.btn3:hover {
+    color: white;
+}
+.btn3:focus {
+    color: white;
+}
+
+
+.btnSizes {
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    transition-duration: .4s;
+    font-size: 20px;
+    background-color: white;
+}
+.btnSizes:hover {
+    background-color: blanchedalmond;
+}
+.btnSizes:focus {
+    background-color: blanchedalmond;
+}
+
+.btnMhoodie {
+    background-color: teal;
+    color: teal;
+}
+.btnMhoodie:hover {
+    color: white;
+}
+.btnMhoodie:focus {
+    color: white;
+}
+
+
+.btnWhoodie {
+    background-color: rgb(233, 174, 225);
+    color: rgb(233, 174, 225);
+}
+.btnWhoodie:hover {
+    color: black;
+}
+.btnWhoodie:focus {
+    color: black;
+}
+
+
+.btnWt1 {
+    background-color: rgb(255, 205, 185);
+    color: rgb(255, 205, 185);
+}
+.btnWt1:hover {
+    color: black;
+}
+.btnWt1:focus {
+    color: black;
+}
+
+.btnWt2 {
+    background-color: rgb(150, 209, 209);
+    color: rgb(150, 209, 209);
+}
+.btnWt2:hover {
+    color: black;
+}
+.btnWt2:focus {
+    color: black
+}

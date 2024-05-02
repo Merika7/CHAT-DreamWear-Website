@@ -1,0 +1,116 @@
+
+:root{
+    --divHeight: 1000px;
+    --divWidth: 1400px;
+}
+
+body{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: light;
+}
+
+.dvMain{
+    width: var(--divWidth);
+    height: var(--divHeight);
+    background-color: white;
+    margin: 5px auto;
+    padding: 30px;
+    display: flex;
+}
+
+.dvMenu{
+    width: 150px;
+    height: var(--divHeight);
+    padding: 1px;
+    background-color: blanchedalmond;
+    font-size: 25px;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-left: 5px;
+  
+}
+
+.dvMenuOptions{
+    opacity: 80%;
+}
+
+.dvMenu ul{
+    padding-left: 5px;
+    font-size: 28px;
+    font-weight: bold;
+}
+.HMW:hover {
+    font-size: 120%;
+    transition-duration: .6s;
+}
+
+
+.dvMainPage{
+    display: flex;
+    flex-wrap: wrap;
+    --MainSectionWidth: calc(var(--divWidth) - 150px);
+    width: calc(var(--divWidth) - 150px);
+    height: var(--divHeight);
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px;
+  
+}
+
+.dvHeadImg{
+    width: var(--MainSectionWidth);
+    height: 150px;
+    padding: 0 200px 0 270px;
+   
+}
+
+.dvImage{
+    height: 150px;
+    width: 700px;
+}
+
+
+
+.dvProductGallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: calc(var(--divHeight) - 260px);
+    width: var(--MainSectionWidth);
+}
+
+
+.dvProductThumb{
+    width:300px;
+    height: 300px;
+    margin: 40px;
+}
+.dvProductThumb:hover {
+    opacity: 60%;
+    transition-duration: .6s;
+}
+
+.dvProductTitle{
+    margin: 1px;
+    font-size: 20px;
+}
+
+.dvProductCost{
+    margin: 1px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+img{
+    height: 300px;
+    width: 300px;
+}
+
